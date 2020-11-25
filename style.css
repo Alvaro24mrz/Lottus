@@ -1,0 +1,390 @@
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1 {font-family: 'Lora', serif;
+    margin-top: 200px;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 80px
+}
+
+h2 {font-family: 'Lora', serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #F087B8;
+
+    font-weight: 600;
+}
+
+h5 {font-family: 'Lora', serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #F087B8;
+}
+
+section {
+   padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #1A1B2F;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.topmargin-xs { margin-top: 15px;}
+.topmargin-sm { margin-top: 30px;}
+.topmargin-lg { margin-top: 100px;}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light{
+    background-color: #f087b8;
+    color:white;
+    border: 2px solid #CCCCCC;
+}
+
+
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+    min-height: 100px;
+}
+
+.nav-link{ color: #1a1a1a;}
+.nav-link:hover{color: cyan;}
+
+.logo-brand {
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar-toggler {font-size: 40px;}
+.navbar-toggler:focus {outline:none;}
+
+#inicio{
+    background-image: url('imagenes/portadaa.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color:#ffffff;
+}
+#inicio p {
+    color: white;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align:center;
+}
+
+.content-center-1{
+    max-width: 1000px;
+    margin: 0 auto 60px auto;
+    text-align:justify;
+}
+
+.nosotros-container {
+    position:relative;
+    overflow: hidden;
+    margin:10px 0;
+    border-radius: 2px;
+
+}
+
+
+.testimonios-container{
+    position:relative;
+    overflow: hidden;
+    margin:10px 0;
+    border-radius: 2px;
+}
+
+.testimonios-details{
+    position:absolute;
+    bottom: 25px;
+}
+
+.testimonios-details h2{
+    color: #F087B8;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.medicos-details p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #1A1B2F;
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align:justify;
+}
+
+.medicos-p p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.bg-light-blue{ background-color: #FFF3FF;}
+
+.btn-med{
+    font-size: 14px;
+    padding: 10px 15px;
+    min-width: 50px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #77E9D7;
+    color:white;
+    border: 2px solid #CCCCCC;
+    text-align:justify;
+    margin-left: 5px;
+
+}
+.btn-white{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 300px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: white;
+    color:gray;
+    text-align:justify;
+    border: 2px solid #CCCCCC;
+}
+.box-search{
+    font-size: 14px;
+    padding: 15px 26px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: white;
+    color:gray;
+    text-align:justify;
+    border: 2px solid #CCCCCC;
+    margin-left: 20px;
+    min-width: 200px;
+}
+
+.medicos h2{
+    color: #F087B8;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.medicos p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #1A1B2F;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.medicos-h2v2 h2{
+    color: #F087B8;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.planes-h2 h2{
+    color: #F087B8;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+
+.planes-container{
+    margin:15px 0;
+}
+
+.plans{
+    padding: 50px 50px;
+    border-radius: 2px;
+    min-width: 300px;
+}
+
+.plan-cuadrado{
+    background-color: white;
+    border:2px solid #707070;
+}
+
+.forma-center {
+    max-width: 800800px;
+    margin: 0 auto 40px auto;
+}
+
+.img-center {
+
+    margin: 0 auto 60px auto;
+    text-align:center;
+    max-width: 800px;
+
+
+}
+
+.planes-h4 h4 {
+    color: #F087B8;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top:10px;
+
+    text-align:center;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.ImgTest{
+
+    margin: 60px auto 60px auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align:justify;
+}
+
+.ios{
+    width: 72%;
+}
+
+.play{
+    width: 75%;
+}
+
+.testimonios2-h2 h2 {
+    color: #F087B8;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.testimonios3-h2 h2 {font-family: 'Lora', serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #F087B8;
+    text-align: center;
+}
+
+.card-margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.ImgTest2 {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align:justify;
+}
+
+.ta{
+    width: 25%;
+}
+
+.card-title2 p{
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: #1A1B2F;
+    line-height: 1.8;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.card-titleh2 h2{
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #1A1B2F;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 5px;
+
+}
+
+.mh{
+    height: 150px;
+    width: 100px;
+}
+
+.mh2{
+    height: 150px;
+    width: 250px;
+}
+
+.asd1{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+  }
+  
+.asd2{
+    position: absolute;
+    width: 100px;
+    top: 400px;
+    left: 400px;
+    right: 400px;
+    bottom: 400px;
+    margin: auto;
+}
+
+.cf{
+    color: #000000;
+}
+
+.btn-verde{
+    background-color: #77E9D7;
+    color:white;
+    border: 2px solid #CCCCCC;
+}
+
+.terms h5{
+    color: #F087B8;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top:10px;
+
+    text-align: justify;
+}
+
+.terms p{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: #1A1B2F;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
